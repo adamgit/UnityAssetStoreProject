@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAssetName-Runtime", "MyAssetName-Runtime\MyAssetName-Runtime.csproj", "{9AEE4BBF-7CF0-45D0-B4C0-7E8DBDC635C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAssetName-Editor", "MyAssetName-Editor\MyAssetName-Editor.csproj", "{B11FFD0E-A8EC-4E60-A6D2-D227484C6C48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AEE4BBF-7CF0-45D0-B4C0-7E8DBDC635C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AEE4BBF-7CF0-45D0-B4C0-7E8DBDC635C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AEE4BBF-7CF0-45D0-B4C0-7E8DBDC635C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AEE4BBF-7CF0-45D0-B4C0-7E8DBDC635C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B11FFD0E-A8EC-4E60-A6D2-D227484C6C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B11FFD0E-A8EC-4E60-A6D2-D227484C6C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B11FFD0E-A8EC-4E60-A6D2-D227484C6C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B11FFD0E-A8EC-4E60-A6D2-D227484C6C48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

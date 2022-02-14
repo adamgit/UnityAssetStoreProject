@@ -1,0 +1,17 @@
+{
+    "name": "MyAssetNameEditor-assembly",
+    "references": [
+        "Flexbox4Unity-assembly"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
