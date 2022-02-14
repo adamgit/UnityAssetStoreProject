@@ -19,3 +19,15 @@ MacOSX / Linux:
 2. cd development
 3. ln -s [your UnityEditor DLLs folder, ends in "/Editor/Data/Managed/"] UnitySymlink
 
+# Usage instructions
+
+I'll write longer instructions soon :) but TL;DR:
+
+1. Put all your source code in "source-as-package" - that folder is a standard Unity local-package / package-from-disk
+2. Put all your UnityProjects e.g. "TestProject", e.g. "AssetStoreUploadProject", e.g. "Dev-2019", e.g. "Dev-2020", e.g. "Test-LatestUnityAlpha" ... in the "runnable-projects" folder
+3. ...each UnityProject use PackageManager > Add Package from Disk > select the pacakge in "source-as-package"
+4. FIX THE UNITY BUG where they stupidly put an absolute reference: edit package.json in your project's Packages folder and change the "file:C:\Unity\is\stupid" into "file:..\..\etc"
+
+Now use as normal, develop as normal. To build a DLL open the solution in "buildable-DLLs" - it is preconfigured to be compatible with Unity, generating a Runtime DLL and an Editor DLL both with the same name (required by Unity) in different subfolders, it outputs them to "exportedDLLs".
+
+When you add new source files to the project you probably need to re-add them in the DLL-making  .sln but that's a simple: open IDE for Solution, select the source-folder, and do "Add Existing files" and then select everyning in that folder *but make sure you add them as Links not as Copied files*
