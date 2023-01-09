@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\githubprojects\UnityAssetStoreProject\development\buildable-DLLs" t="IncludeFlat">
+      <e p="MyAssetName-Editor" t="IncludeRecursive">
+        <e p="MyAssetName-Editor.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Runtime" t="Include">
+          <e p="bin" t="Include" />
+        </e>
+      </e>
+      <e p="MyAssetName-Runtime" t="IncludeRecursive">
+        <e p="MyAssetName-Runtime.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MyAssetName.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Runtime\bin\Debug" t="Include" />
+    </e>
+    <e p="C:\githubprojects\UnityAssetStoreProject\development\exported-DLLs\MyAssetName\Editor" t="ExcludeRecursive" />
+    <e p="C:\githubprojects\UnityAssetStoreProject\development\exported-DLLs\MyAssetName\Runtime" t="ExcludeRecursive" />
+    <e p="C:\githubprojects\UnityAssetStoreProject\development\source-as-package\com.myassetname\Editor" t="Include" />
+    <e p="C:\githubprojects\UnityAssetStoreProject\development\source-as-package\com.myassetname\Runtime" t="Include">
+      <e p="MyAssetMonoBehaviour.cs" t="Include" />
+      <e p="MyAssetMonoBehaviour.cs.meta" t="Include" />
+      <e p="MyAssetName-assembly.asmdef" t="Include" />
+      <e p="MyAssetName-assembly.asmdef.meta" t="Include" />
+    </e>
+    <e p="C:\Users\adam\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\adam\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_MyAssetName.1147527307.01" t="ExcludeRecursive" />
+  </component>
+</project>
